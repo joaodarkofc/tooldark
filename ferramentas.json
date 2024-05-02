@@ -7,6 +7,7 @@
     },
     {
         "name": "aircrack-ng",
+         "category": "Rede",
         "description": "Conjunto de ferramentas para auditoria de redes Wi-Fi.",
         "install_command": "sudo apt-get install -y aircrack-ng"
     },
