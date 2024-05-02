@@ -1,6 +1,7 @@
 [
     {
         "name": "nmap",
+        "category": "Rede",
         "description": "Ferramenta para varredura de rede.",
         "install_command": "sudo apt-get install -y nmap"
     },
