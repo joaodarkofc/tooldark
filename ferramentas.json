@@ -1,80 +1,407 @@
 [
     {
         "name": "nmap",
-        "categories": ["Rede", "Segurança", "Varredura"],
         "description": "Ferramenta para varredura de rede.",
         "install_command": "sudo apt-get install -y nmap"
     },
     {
         "name": "aircrack-ng",
-        "categories": ["Wi-Fi", "Segurança", "Ataque"],
         "description": "Conjunto de ferramentas para auditoria de redes Wi-Fi.",
         "install_command": "sudo apt-get install -y aircrack-ng"
     },
     {
         "name": "metasploit",
-        "categories": ["Penetração", "Segurança", "Exploração"],
         "description": "Framework para testes de penetração e exploração de vulnerabilidades.",
         "install_command": "sudo apt-get install -y metasploit-framework"
     },
     {
+        "name": "hydra",
+        "description": "Ferramenta para ataques de força bruta.",
+        "install_command": "sudo apt-get install -y hydra"
+    },
+    {
         "name": "john-the-ripper",
-        "categories": ["Quebra de Senhas", "Segurança", "Criptografia"],
         "description": "Ferramenta para quebra de senhas.",
         "install_command": "sudo apt-get install -y john"
     },
     {
         "name": "wireshark",
-        "categories": ["Rede", "Análise", "Segurança"],
         "description": "Ferramenta para análise de pacotes de rede.",
         "install_command": "sudo apt-get install -y wireshark"
     },
     {
         "name": "tcpdump",
-        "categories": ["Rede", "Análise", "Captura de Pacotes"],
         "description": "Ferramenta para captura e análise de pacotes de rede.",
         "install_command": "sudo apt-get install -y tcpdump"
     },
     {
-        "name": "burp-suite",
-        "categories": ["Web", "Penetração", "Segurança"],
-        "description": "Plataforma para testes de segurança de aplicativos web.",
-        "install_command": "sudo apt-get install -y burpsuite"
-    },
-    {
         "name": "sqlmap",
-        "categories": ["SQL Injection", "Segurança", "Penetração"],
         "description": "Ferramenta para detecção e exploração de SQL Injection.",
         "install_command": "sudo apt-get install -y sqlmap"
     },
     {
+        "name": "burp-suite",
+        "description": "Plataforma para testes de segurança de aplicativos web.",
+        "install_command": "sudo apt-get install -y burpsuite"
+    },
+    {
         "name": "nikto",
-        "categories": ["Web", "Segurança", "Escaneamento"],
         "description": "Ferramenta para escaneamento de vulnerabilidades em servidores web.",
         "install_command": "sudo apt-get install -y nikto"
     },
     {
         "name": "netcat",
-        "categories": ["Rede", "Ferramentas", "Segurança"],
         "description": "Ferramenta para ler e gravar dados em conexões de rede usando TCP ou UDP.",
         "install_command": "sudo apt-get install -y netcat"
     },
     {
         "name": "ettercap",
-        "categories": ["Ataques em Redes", "Segurança"],
         "description": "Ferramenta para ataques de man-in-the-middle em redes.",
         "install_command": "sudo apt-get install -y ettercap-text-only"
     },
     {
         "name": "hping3",
-        "categories": ["Rede", "Segurança", "Testes"],
         "description": "Ferramenta para manipular pacotes TCP/IP para testes de segurança.",
         "install_command": "sudo apt-get install -y hping3"
     },
     {
         "name": "kismet",
-        "categories": ["Wi-Fi", "Rede", "Segurança"],
         "description": "Ferramenta para monitoramento de redes sem fio.",
         "install_command": "sudo apt-get install -y kismet"
+    },
+    {
+        "name": "medusa",
+        "description": "Ferramenta para ataques de força bruta em diversos protocolos.",
+        "install_command": "sudo apt-get install -y medusa"
+    },
+    {
+        "name": "dirb",
+        "description": "Ferramenta para descoberta de diretórios e arquivos em servidores web.",
+        "install_command": "sudo apt-get install -y dirb"
+    },
+    {
+        "name": "theharvester",
+        "description": "Ferramenta para coleta de informações de fontes públicas.",
+        "install_command": "sudo apt-get install -y theharvester"
+    },
+    {
+        "name": "maltego",
+        "description": "Ferramenta para visualização e análise de relacionamentos entre dados.",
+        "install_command": "sudo apt-get install -y maltego"
+    },
+    {
+        "name": "openvas",
+        "description": "Ferramenta para escaneamento de vulnerabilidades.",
+        "install_command": "sudo apt-get install -y openvas"
+    },
+    {
+        "name": "autopsy",
+        "description": "Ferramenta para análise forense de discos e arquivos.",
+        "install_command": "sudo apt-get install -y autopsy"
+    },
+    {
+        "name": "socat",
+        "description": "Ferramenta para criar túneis e redirecionamento de portas.",
+        "install_command": "sudo apt-get install -y socat"
+    },
+    {
+        "name": "netstat",
+        "description": "Ferramenta para exibir estatísticas de rede e conexões abertas.",
+        "install_command": "sudo apt-get install -y netstat"
+    },
+    {
+        "name": "strace",
+        "description": "Ferramenta para rastrear chamadas de sistema em um processo.",
+        "install_command": "sudo apt-get install -y strace"
+    },
+    {
+        "name": "gdb",
+        "description": "Ferramenta para depurar programas em tempo de execução.",
+        "install_command": "sudo apt-get install -y gdb"
+    },
+    {
+        "name": "gcc",
+        "description": "Compilador para várias linguagens de programação.",
+        "install_command": "sudo apt-get install -y gcc"
+    },
+    {
+        "name": "radare2",
+        "description": "Framework para análise binária e engenharia reversa.",
+        "install_command": "sudo apt-get install -y radare2"
+    },
+    {
+        "name": "ghidra",
+        "description": "Ferramenta para engenharia reversa e análise binária.",
+        "install_command": "sudo apt-get install -y ghidra"
+    },
+    {
+        "name": "apktool",
+        "description": "Ferramenta para engenharia reversa de arquivos APK.",
+        "install_command": "sudo apt-get install -y apktool"
+    },
+    {
+        "name": "sleuthkit",
+        "description": "Ferramenta para análise forense de discos e sistemas de arquivos.",
+        "install_command": "sudo apt-get install -y sleuthkit"
+    },
+    {
+        "name": "feroxbuster",
+        "description": "Ferramenta para descoberta de diretórios e arquivos ocultos em servidores web.",
+        "install_command": "sudo apt-get install -y feroxbuster"
+    },
+    {
+        "name": "sqlninja",
+        "description": "Ferramenta para exploração de SQL Injection.",
+        "install_command": "sudo apt-get install -y sqlninja"
+    },
+    {
+        "name": "waffit",
+        "description": "Ferramenta para analisar a segurança de Web Application Firewalls.",
+        "install_command": "sudo apt-get install -y waffit"
+    },
+    {
+        "name": "samdump2",
+        "description": "Ferramenta para obter hashes de senhas do arquivo SAM no Windows.",
+        "install_command": "sudo apt-get install -y samdump2"
+    },
+    {
+        "name": "wifite",
+        "description": "Ferramenta para auditoria de redes Wi-Fi.",
+        "install_command": "sudo apt-get install -y wifite"
+    },
+    {
+        "name": "smbclient",
+        "description": "Ferramenta para interagir com servidores SMB.",
+        "install_command": "sudo apt-get install -y smbclient"
+    },
+    {
+        "name": "xpdf",
+        "description": "Visualizador de arquivos PDF.",
+        "install_command": "sudo apt-get install -y xpdf"
+    },
+    {
+        "name": "dnsmap",
+        "description": "Ferramenta para mapear subdomínios.",
+        "install_command": "sudo apt-get install -y dnsmap"
+    },
+    {
+        "name": "arp-scan",
+        "description": "Ferramenta para varredura de rede usando ARP.",
+        "install_command": "sudo apt-get install -y arp-scan"
+    },
+    {
+        "name": "thefuck",
+        "description": "Ferramenta para corrigir comandos digitados incorretamente.",
+        "install_command": "sudo apt-get install -y thefuck"
+    },
+    {
+        "name": "pycharm",
+        "description": "IDE para desenvolvimento em Python.",
+        "install_command": "sudo apt-get install -y pycharm"
+    },
+    {
+        "name": "visual-studio-code",
+        "description": "IDE para desenvolvimento de software.",
+        "install_command": "sudo apt-get install -y code"
+    },
+    {
+        "name": "atom",
+        "description": "Editor de texto para desenvolvimento de software.",
+        "install_command": "sudo apt-get install -y atom"
+    },
+    {
+        "name": "emacs",
+        "description": "Editor de texto altamente configurável.",
+        "install_command": "sudo apt-get install -y emacs"
+    },
+    {
+        "name": "vim",
+        "description": "Editor de texto avançado.",
+        "install_command": "sudo apt-get install -y vim"
+    },
+    {
+        "name": "nano",
+        "description": "Editor de texto simples e fácil de usar.",
+        "install_command": "sudo apt-get install -y nano"
+    },
+    {
+        "name": "brutespray",
+        "description": "Ferramenta para ataques de força bruta em serviços de rede.",
+        "install_command": "sudo apt-get install -y brutespray"
+    },
+    {
+        "name": "dnsenum",
+        "description": "Ferramenta para enumeração de informações DNS.",
+        "install_command": "sudo apt-get install -y dnsenum"
+    },
+    {
+        "name": "dnsrecon",
+        "description": "Ferramenta para enumeração e teste de servidores DNS.",
+        "install_command": "sudo apt-get install -y dnsrecon"
+    },
+    {
+        "name": "dns2tcp",
+        "description": "Ferramenta para encapsular tráfego TCP em DNS.",
+        "install_command": "sudo apt-get install -y dns2tcp"
+    },
+    {
+        "name": "fierce",
+        "description": "Ferramenta para varredura de redes e subdomínios.",
+        "install_command": "sudo apt-get install -y fierce"
+    },
+    {
+        "name": "dnschef",
+        "description": "Ferramenta para ataques de spoofing DNS.",
+        "install_command": "sudo apt-get install -y dnschef"
+    },
+    {
+        "name": "kerberoast",
+        "description": "Ferramenta para ataques a tickets Kerberos.",
+        "install_command": "sudo apt-get install -y kerberoast"
+    },
+    {
+        "name": "masscan",
+        "description": "Ferramenta para varredura em alta velocidade.",
+        "install_command": "sudo apt-get install -y masscan"
+    },
+    {
+        "name": "mimikatz",
+        "description": "Ferramenta para exploração e extração de credenciais no Windows.",
+        "install_command": "sudo apt-get install -y mimikatz"
+    },
+    {
+        "name": "windows-exploit-suggester",
+        "description": "Ferramenta para sugerir exploits para vulnerabilidades do Windows.",
+        "install_command": "sudo apt-get install -y windows-exploit-suggester"
+    },
+    {
+        "name": "powershell",
+        "description": "Shell avançado para automação e scripts no Windows.",
+        "install_command": "sudo apt-get install -y powershell"
+    },
+    {
+        "name": "evil-winrm",
+        "description": "Ferramenta para explorar Windows Remote Management (WinRM).",
+        "install_command": "sudo apt-get install -y evil-winrm"
+    },
+    {
+        "name": "cain-abel",
+        "description": "Ferramenta para recuperação e quebra de senhas.",
+        "install_command": "sudo apt-get install -y cain-abel"
+    },
+    {
+        "name": "ncsi",
+        "description": "Ferramenta para criar servidores simples para comunicação de rede.",
+        "install_command": "sudo apt-get install -y ncsi"
+    },
+    {
+        "name": "powersploit",
+        "description": "Conjunto de ferramentas para exploração usando PowerShell.",
+        "install_command": "sudo apt-get install -y powersploit"
+    },
+    {
+        "name": "peach-fuzzing",
+        "description": "Framework para testes de fuzzing.",
+        "install_command": "sudo apt-get install -y peach-fuzzing"
+    },
+    {
+        "name": "zzuf",
+        "description": "Ferramenta para fuzzing e testes de software.",
+        "install_command": "sudo apt-get install -y zzuf"
+    },
+    {
+        "name": "clamav",
+        "description": "Ferramenta para análise de malware e antivírus.",
+        "install_command": "sudo apt-get install -y clamav"
+    },
+    {
+        "name": "chkrootkit",
+        "description": "Ferramenta para verificar rootkits no sistema.",
+        "install_command": "sudo apt-get install -y chkrootkit"
+    },
+    {
+        "name": "rkhunter",
+        "description": "Ferramenta para detectar rootkits e backdoors.",
+        "install_command": "sudo apt-get install -y rkhunter"
+    },
+    {
+        "name": "chkconfig",
+        "description": "Ferramenta para gerenciar serviços em sistemas Linux.",
+        "install_command": "sudo apt-get install -y chkconfig"
+    },
+    {
+        "name": "ntop",
+        "description": "Ferramenta para monitorar e analisar tráfego de rede.",
+        "install_command": "sudo apt-get install -y ntop"
+    },
+    {
+        "name": "nagios",
+        "description": "Ferramenta para monitoramento e gerenciamento de sistemas.",
+        "install_command": "sudo apt-get install -y nagios"
+    },
+    {
+        "name": "icinga",
+        "description": "Ferramenta para monitoramento de sistemas e redes.",
+        "install_command": "sudo apt-get install -y icinga"
+    },
+    {
+        "name": "zabbix",
+        "description": "Ferramenta para monitoramento de sistemas e redes.",
+        "install_command": "sudo apt-get install -y zabbix"
+    },
+    {
+        "name": "snort",
+        "description": "Ferramenta para detecção de intrusões em redes.",
+        "install_command": "sudo apt-get install -y snort"
+    },
+    {
+        "name": "suricata",
+        "description": "Ferramenta para detecção de intrusões em redes.",
+        "install_command": "sudo apt-get install -y suricata"
+    },
+    {
+        "name": "openvas",
+        "description": "Ferramenta para escaneamento de vulnerabilidades.",
+        "install_command": "sudo apt-get install -y openvas"
+    },
+    {
+        "name": "nessus",
+        "description": "Ferramenta para escaneamento de vulnerabilidades.",
+        "install_command": "sudo apt-get install -y nessus"
+    },
+    {
+        "name": "hping3",
+        "description": "Ferramenta para manipular pacotes TCP/IP.",
+        "install_command": "sudo apt-get install -y hping3"
+    },
+    {
+        "name": "xar",
+        "description": "Ferramenta para análise de malware em arquivos comprimidos.",
+        "install_command": "sudo apt-get install -y xar"
+    },
+    {
+        "name": "httrack",
+        "description": "Ferramenta para clonar sites.",
+        "install_command": "sudo apt-get install -y httrack"
+    },
+    {
+        "name": "curl",
+        "description": "Ferramenta para fazer requisições HTTP/FTP.",
+        "install_command": "sudo apt-get install -y curl"
+    },
+    {
+        "name": "wget",
+        "description": "Ferramenta para baixar arquivos da internet.",
+        "install_command": "sudo apt-get install -y wget"
+    },
+    {
+        "name": "telnet",
+        "description": "Ferramenta para conectar-se a servidores Telnet.",
+        "install_command": "sudo apt-get install -y telnet"
+    },
+    {
+        "name": "traceroute",
+        "description": "Ferramenta para rastrear rotas de rede.",
+        "install_command": "sudo apt-get install -y traceroute"
     }
 ]
