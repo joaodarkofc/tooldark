@@ -1,5 +1,41 @@
 [
     {
+      "nome": "ExpressVPN",
+      "descricao": "Um serviço de VPN comercial com servidores em todo o mundo e alto desempenho.",
+      "comando_instalacao": "Download do site oficial",
+      "categoria": "VPN"
+    },
+    {
+      "nome": "NordVPN",
+      "descricao": "Um dos serviços de VPN mais populares, conhecido por suas características de segurança.",
+      "comando_instalacao": "Download do site oficial",
+      "categoria": "VPN"
+    },
+    {
+      "nome": "Privoxy",
+      "descricao": "Um servidor proxy para navegação anônima e filtragem de conteúdo.",
+      "comando_instalacao": "sudo apt-get install privoxy",
+      "categoria": "Proxy"
+    },
+    {
+      "nome": "Squid",
+      "descricao": "Um servidor proxy para caching e controle de tráfego de rede.",
+      "comando_instalacao": "sudo apt-get install squid",
+      "categoria": "Proxy"
+    },
+    {
+      "nome": "Tor",
+      "descricao": "Uma rede de anonimato que roteia tráfego através de nós para proteção de privacidade.",
+      "comando_instalacao": "sudo apt-get install tor",
+      "categoria": "Anonimato"
+    },
+    {
+      "nome": "Shadowsocks",
+      "descricao": "Uma ferramenta de proxy para superar censura na internet.",
+      "comando_instalacao": "sudo apt-get install shadowsocks",
+      "categoria": "Proxy"
+    },
+    {
         "name": "LOIC",
         "description": "Low Orbit Ion Cannon - Ferramenta para simulação de ataques DDoS.",
         "install_command": "Download do repositório GitHub",
