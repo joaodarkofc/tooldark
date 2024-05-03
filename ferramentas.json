@@ -46,91 +46,97 @@
         "description": "Ferramenta para exploração de SQL Injection",
         "install_command": "sudo apt-get install sqlninja",
         "category": "segurança"
-    }    
+    },
     {
-      "name": "privoxy",
-      "description": "Servidor proxy para navegação anônima",
-      "install_command": "sudo apt-get install privoxy",
-      "category": "proxy"
-  },
-  {
-      "name": "squid",
-      "description": "Servidor proxy com recursos avançados",
-      "install_command": "sudo apt-get install squid",
-      "category": "proxy"
-  },
-  {
-      "name": "openvpn",
-      "description": "Ferramenta para conexão VPN segura",
-      "install_command": "sudo apt-get install openvpn",
-      "category": "vpn"
-  },
-  {
-      "name": "wireguard",
-      "description": "Uma VPN moderna e eficiente",
-      "install_command": "sudo apt-get install wireguard",
-      "category": "vpn"
-  },
-  {
-      "name": "socat",
-      "description": "Multipropósito para comunicação de dados",
-      "install_command": "sudo apt-get install socat",
-      "category": "wi-fi"
-  },
-  {
-      "name": "traceroute",
-      "description": "Traçar rota de pacotes na rede",
-      "install_command": "sudo apt-get install traceroute",
-      "category": "wi-fi"
-  },
-  {
-      "name": "tcpdump",
-      "description": "Captura pacotes de rede para análise",
-      "install_command": "sudo apt-get install tcpdump",
-      "category": "segurança"
-  },
-  {
-      "name": "wireshark",
-      "description": "Analisador de pacotes de rede",
-      "install_command": "sudo apt-get install wireshark",
-      "category": "segurança"
-  },
-  {
-      "name": "htop",
-      "description": "Visualizador interativo de processos",
-      "install_command": "sudo apt-get install htop",
-      "category": "monitoramento"
-  },
-  {
-      "name": "iftop",
-      "description": "Monitoramento de tráfego de rede",
-      "install_command": "sudo apt-get install iftop",
-      "category": "monitoramento"
-  },
-  {
-      "name": "git",
-      "description": "Sistema de controle de versão distribuído",
-      "install_command": "sudo apt-get install git",
-      "category": "desenvolvimento"
-  },
-  {
-      "name": "python3",
-      "description": "Linguagem de programação Python 3",
-      "install_command": "sudo apt-get install python3",
-      "category": "desenvolvimento"
-  },
-  {
-      "name": "vim",
-      "description": "Editor de texto avançado",
-      "install_command": "sudo apt-get install vim",
-      "category": "desenvolvimento"
-  },
-  {
-      "name": "curl",
-      "description": "Ferramenta para transferir dados com URLs",
-      "install_command": "sudo apt-get install curl",
-      "category": "utilitários"
-  },
+        "name": "privoxy",
+        "description": "Servidor proxy para navegação anônima",
+        "install_command": "sudo apt-get install privoxy",
+        "category": "proxy"
+    },
+    {
+        "name": "squid",
+        "description": "Servidor proxy com recursos avançados",
+        "install_command": "sudo apt-get install squid",
+        "category": "proxy"
+    },
+    {
+        "name": "openvpn",
+        "description": "Ferramenta para conexão VPN segura",
+        "install_command": "sudo apt-get install openvpn",
+        "category": "vpn"
+    },
+    {
+        "name": "wireguard",
+        "description": "Uma VPN moderna e eficiente",
+        "install_command": "sudo apt-get install wireguard",
+        "category": "vpn"
+    },
+    {
+        "name": "socat",
+        "description": "Multipropósito para comunicação de dados",
+        "install_command": "sudo apt-get install socat",
+        "category": "wi-fi"
+    },
+    {
+        "name": "traceroute",
+        "description": "Traçar rota de pacotes na rede",
+        "install_command": "sudo apt-get install traceroute",
+        "category": "rede"
+    },
+    {
+        "name": "tcpdump",
+        "description": "Captura pacotes de rede para análise",
+        "install_command": "sudo apt-get install tcpdump",
+        "category": "segurança"
+    },
+    {
+        "name": "wireshark",
+        "description": "Analisador de pacotes de rede",
+        "install_command": "sudo apt-get install wireshark",
+        "category": "segurança"
+    },
+    {
+        "name": "htop",
+        "description": "Visualizador interativo de processos",
+        "install_command": "sudo apt-get install htop",
+        "category": "monitoramento"
+    },
+    {
+        "name": "iftop",
+        "description": "Monitoramento de tráfego de rede",
+        "install_command": "sudo apt-get install iftop",
+        "category": "monitoramento"
+    },
+    {
+        "name": "git",
+        "description": "Sistema de controle de versão distribuído",
+        "install_command": "sudo apt-get install git",
+        "category": "desenvolvimento"
+    },
+    {
+        "name": "python3",
+        "description": "Linguagem de programação Python 3",
+        "install_command": "sudo apt-get install python3",
+        "category": "desenvolvimento"
+    },
+    {
+        "name": "vim",
+        "description": "Editor de texto avançado",
+        "install_command": "sudo apt-get install vim",
+        "category": "utilitários"
+    },
+    {
+        "name": "curl",
+        "description": "Ferramenta para transferir dados com URLs",
+        "install_command": "sudo apt-get install curl",
+        "category": "utilitários"
+    },
+    {
+        "name": "wget",
+        "description": "Ferramenta para baixar arquivos pela internet",
+        "install_command": "sudo apt-get install wget",
+        "category": "utilitários"
+    }
   {
       "name": "wget",
       "description": "Ferramenta para baixar arquivos pela internet",
