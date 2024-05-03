@@ -1,5 +1,53 @@
 [
     {
+        "name": "cain & abel",
+        "description": "Ferramenta para quebra de senhas e análise de rede",
+        "install_command": "download do site oficial",
+        "category": "segurança"
+    },
+    {
+        "name": "bettercap",
+        "description": "Ferramenta para manipulação de tráfego de rede",
+        "install_command": "sudo apt-get install bettercap",
+        "category": "segurança"
+    },
+    {
+        "name": "airgeddon",
+        "description": "Ferramenta para ataques a redes Wi-Fi",
+        "install_command": "download do repositório GitHub",
+        "category": "wi-fi"
+    },
+    {
+        "name": "dsniff",
+        "description": "Conjunto de ferramentas para interceptação de tráfego",
+        "install_command": "sudo apt-get install dsniff",
+        "category": "segurança"
+    },
+    {
+        "name": "ettercap",
+        "description": "Ferramenta para ataques MITM (Man-in-the-Middle)",
+        "install_command": "sudo apt-get install ettercap",
+        "category": "segurança"
+    },
+    {
+        "name": "loic",
+        "description": "Ferramenta para ataques DDoS",
+        "install_command": "download do repositório GitHub",
+        "category": "ddos"
+    },
+    {
+        "name": "hydra",
+        "description": "Ferramenta para ataques de força bruta",
+        "install_command": "sudo apt-get install hydra",
+        "category": "segurança"
+    },
+    {
+        "name": "sqlninja",
+        "description": "Ferramenta para exploração de SQL Injection",
+        "install_command": "sudo apt-get install sqlninja",
+        "category": "segurança"
+    }    
+    {
       "name": "privoxy",
       "description": "Servidor proxy para navegação anônima",
       "install_command": "sudo apt-get install privoxy",
