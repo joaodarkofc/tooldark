@@ -47,7 +47,7 @@
       "comando_instalacao": "sudo apt-get install shadowsocks",
       "categoria": "Proxy"
     },
-}
+
     {
         "name": "LOIC",
         "description": "Low Orbit Ion Cannon - Ferramenta para simulação de ataques DDoS.",
