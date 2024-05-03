@@ -29,7 +29,6 @@
         "install_command": "Download do repositório GitHub",
         "category": "ddos"
     },
-
     {
       "name": "privoxy",
       "description": "Servidor proxy para navegação anônima",
@@ -126,7 +125,6 @@
       "description": "Ferramenta para varredura de rede.",
       "install_command": "sudo apt-get install -y nmap"
   },
-  
   {
       "name": "aircrack-ng",
       "category": "Wi-Fi",
