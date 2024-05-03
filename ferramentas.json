@@ -1,5 +1,36 @@
 [
     {
+        "name": "LOIC",
+        "description": "Low Orbit Ion Cannon - Ferramenta para simulação de ataques DDoS.",
+        "install_command": "Download do repositório GitHub",
+        "category": "ddos"
+    },
+    {
+        "name": "HOIC",
+        "description": "High Orbit Ion Cannon - Ferramenta para simulação de ataques DDoS de alto volume.",
+        "install_command": "Download do repositório GitHub",
+        "category": "ddos"
+    },
+    {
+        "name": "hping3",
+        "description": "Ferramenta para manipular pacotes e simular ataques DDoS.",
+        "install_command": "sudo apt-get install hping3",
+        "category": "rede"
+    },
+    {
+        "name": "slowloris",
+        "description": "Ferramenta para simular ataques DDoS do tipo Slowloris.",
+        "install_command": "Download do repositório GitHub",
+        "category": "ddos"
+    },
+    {
+        "name": "R.U.D.Y.",
+        "description": "R U Dead Yet? - Ferramenta para ataques DDoS do tipo Slow POST.",
+        "install_command": "Download do repositório GitHub",
+        "category": "ddos"
+    }
+]
+    {
       "name": "privoxy",
       "description": "Servidor proxy para navegação anônima",
       "install_command": "sudo apt-get install privoxy",
