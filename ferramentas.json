@@ -1,5 +1,5 @@
 [
-    {
+   {
         "name": "LOIC",
         "description": "Low Orbit Ion Cannon - Ferramenta para simulação de ataques DDoS.",
         "install_command": "Download do repositório GitHub",
