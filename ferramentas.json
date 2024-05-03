@@ -28,8 +28,8 @@
         "description": "R U Dead Yet? - Ferramenta para ataques DDoS do tipo Slow POST.",
         "install_command": "Download do repositório GitHub",
         "category": "ddos"
-    }
-]
+    },
+
     {
       "name": "privoxy",
       "description": "Servidor proxy para navegação anônima",
